@@ -1,6 +1,6 @@
 /*!  Plugin: Kite Menu
  *   Author: Asif Mughal
- *   URL: www.jqueryprojects.com
+ *   URL: www.codehim.com
  *   License: MIT License
  *   Copyright (c) 2019 - Asif Mughal
  */
