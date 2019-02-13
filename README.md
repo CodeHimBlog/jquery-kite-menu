@@ -1,4 +1,4 @@
-# jquery-kite-menu
+# jquery-kite-menu (Under Development)
 jQuery Hamburger Navigation Menu with Search box.
 
 ## Main Features 
