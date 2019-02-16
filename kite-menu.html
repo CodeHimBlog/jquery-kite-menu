@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="UTF-8" />
+<title>Kite Menu Plugin Demo</title>
+<meta name="description" content="Here is the demo of jQuery kite menu (hamburger navigation) plugin." />
+
+<!--jQuery-->
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  
+  <!--Font Awesome-->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+<!--Google Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+<!--Kite Menu CSS-->
+<link rel="stylesheet" href="assets/css/kite-menu.css" />
+
+</head>
+<body>
+
+<!--Start Kite Menu-->
+<nav class="kite-menu">
+   <h2 class="kite-logo"> kite Menu</h2>
+   <div class="kite-menu-trigger" id="hamburger"><span></span></div>
+   <div class="kite-search-trigger">
+      <i class="fa fa-search"></i>
+   </div>
+   <div class="kite-search">
+      <form action="#">
+         <input type="text" autocomplete="off" name="search" />
+         <button type="submit" class="search-btn"> <i class="fa fa-search"></i> </button>
+      </form>
+   </div>
+   <div class="links-wrapper">
+      <ul class="menu-links">
+         <li> <a href="#1">Home </a> </li>
+         <li> <a href="#2"> Blog</a> </li>
+         <li> <a href="#3">News </a> </li>
+         <li> <a href="#4">Contact </a> </li>
+         <li> <a href="#5">About </a> </li>
+      </ul>
+   </div>
+</nav>
+<!--End Kite Menu-->
+
+
+
+<!--Kite Menu Js-->
+<script src="assets/js/jquery.kitemenu.js"></script>
+
+<script>
+$(document).ready(function(){
+$(".kite-menu").kiteMenu();
+}); //jQuery
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="UTF-8" />
+<title>jQuery Hamburger Navigation Menu with Search box | Kite Menu Plugin</title>
+<meta name="description" content="Free jQuery plugin to create responsive hamburger navigation menu with awesome search box. Created in HTML, CSS and JavaScript (jQuery)." />
+
+<!--jQuery-->
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  
+  <!--Font Awesome-->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+<!--Google Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+<!--Kite Menu CSS-->
+<link rel="stylesheet" href="assets/css/kite-menu.css" />
+
+<!--Kite Menu Js-->
+<script src="assets/js/jquery.kitemenu.js"></script>
+
+<script>
+$(document).ready(function(){
+$(".kite-menu").kiteMenu();
+}); //jQuery
+</script>
+
+</head>
+<body>
+
+<!--Start Kite Menu-->
+<nav class="kite-menu">
+   <h2 class="kite-logo"> kite Menu</h2>
+   <div class="kite-menu-trigger" id="hamburger"><span></span></div>
+   <div class="kite-search-trigger">
+      <i class="fa fa-search"></i>
+   </div>
+   <div class="kite-search">
+      <form action="#">
+         <input type="text" autocomplete="off" name="search" />
+         <button type="submit" class="search-btn"> <i class="fa fa-search"></i> </button>
+      </form>
+   </div>
+   <div class="links-wrapper">
+      <ul class="menu-links">
+         <li> <a href="#1">Home </a> </li>
+         <li> <a href="#2"> Blog</a> </li>
+         <li> <a href="#3">News </a> </li>
+         <li> <a href="#4">Contact </a> </li>
+         <li> <a href="#5">About </a> </li>
+      </ul>
+   </div>
+</nav>
+<!--End Kite Menu-->
+
+<header class="intro">
+      <h1>Kite Menu jQuery Plugin </h1>
+     <p> A responsive, clean and modern hamburger navigation menu with search box. 
+         <br />
+         <br />
+<b> Written in:</b><i> HTML, CSS, JavaScript</i><br>
+          <b> Frameworks: </b> <i>  jQuery 3.3.1 &amp; Font Awesome  </i>
+      </p>
+<div class="action">
+<a class="btn github" href="#3"> Fork on GiHub </a>
+<a class="btn down" href="#3">Download </a>
+</div>
+</header>
+<main>
+<article>
+
+<h2>Kite Menu Theme </h2>
+<p>
+The following are seven built-in colors scheme for kite menu. Choose your best color gradients to view the demo in that color. 
+</p>
+
+<section class="theme-picker">
+<span class="default"></span>
+<span class="lush"></span>
+<span class="deep-purple"></span>
+<span class="rainbow"></span>
+<span class="instagram"></span>
+<span class="dimigo"></span>
+<span class="deep-space"></span>
+</section>
+
+<h2> Main Features  </h2>
+
+<ul>
+<li>Fully Responsive  (Mobile first Design). </li>
+<li> Simple and Clean Design. </li>
+<li>+7 Built-In CSS Gradients Color for Menu.</li>
+<li>CSS Animated Hamburger Icon to Toggle the Menu.</li>
+<li>CSS Sliding and Fading Effects.</li>
+<li>Built-In Morden Search Form Design. </li>
+<li>Chrome, Safari, Firefox, Opera, IE7+, IOS, Android and windows phone supported. </li>
+
+</ul>
+
+<h2> How to Use it </h2>
+
+<p>
+1. First of all load the jQuery (JavaScript library) and Font Awesome CSS iconic library into your webpage. 
+</p>
+
+<pre class="prettyprint" lang-html">
+&lt;!--jQuery--&gt;
+&lt;script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"&gt;&lt;/script&gt;
+  
+&lt;!--Font Awesome--&gt;
+&lt;link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" /&gt;
+</pre>
+
+<p>
+2. Now load the Kite Menu CSS and JS files: 
+</p>
+<pre class="prettyprint" lang-html">
+&lt;!--Kite Menu CSS--&gt;
+&lt;link rel="stylesheet" href="assets/css/kite-menu.css" /&gt;
+
+&lt;!--Kite Menu Js--&gt;
+&lt;script src="assets/js/jquery.kitemenu.js"&gt;&lt;/script&gt;
+</pre>
+
+<p> 3. Create HTML structure like below that contains following classes. </p>
+
+<pre class="prettyprint" lang-html">
+&lt;!--Start Kite Menu--&gt;
+&lt;nav class=&quot;kite-menu&quot;&gt;
+   &lt;h2 class=&quot;kite-logo&quot;&gt; kite Menu&lt;/h2&gt;
+   &lt;div class=&quot;kite-menu-trigger&quot; id=&quot;hamburger&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/div&gt;
+   &lt;div class=&quot;kite-search-trigger&quot;&gt;
+      &lt;i class=&quot;fa fa-search&quot;&gt;&lt;/i&gt;
+   &lt;/div&gt;
+   &lt;div class=&quot;kite-search&quot;&gt;
+      &lt;form action=&quot;#&quot;&gt;
+         &lt;input type=&quot;text&quot; autocomplete=&quot;off&quot; name=&quot;search&quot; /&gt;
+         &lt;button type=&quot;submit&quot; class=&quot;search-btn&quot;&gt; &lt;i class=&quot;fa fa-search&quot;&gt;&lt;/i&gt; &lt;/button&gt;
+      &lt;/form&gt;
+   &lt;/div&gt;
+   &lt;div class=&quot;links-wrapper&quot;&gt;
+      &lt;ul class=&quot;menu-links&quot;&gt;
+         &lt;li&gt; &lt;a href=&quot;#1&quot;&gt;Home &lt;/a&gt; &lt;/li&gt;
+         &lt;li&gt; &lt;a href=&quot;#2&quot;&gt; Blog&lt;/a&gt; &lt;/li&gt;
+         &lt;li&gt; &lt;a href=&quot;#3&quot;&gt;News &lt;/a&gt; &lt;/li&gt;
+         &lt;li&gt; &lt;a href=&quot;#4&quot;&gt;Contact &lt;/a&gt; &lt;/li&gt;
+         &lt;li&gt; &lt;a href=&quot;#5&quot;&gt;About &lt;/a&gt; &lt;/li&gt;
+      &lt;/ul&gt;
+   &lt;/div&gt;
+&lt;/nav&gt;
+&lt;!--End Kite Menu--&gt;
+</pre>
+
+
+<p>
+4. Now, it's time to initialize kite menu plugin, call the plugin with the following selector in jquery document ready function. 
+</p>
+
+<pre class="prettyprint" lang-js">
+$(document).ready(function(){
+$(".kite-menu").kiteMenu();
+}); 
+</pre>
+
+<p>
+5. To change the kite menu skin color, put the name of theme in the following string option. 
+</p>
+
+<pre class="prettyprint" lang-js">
+$(".kite-menu").kiteMenu({
+ kiteSkin: "theme-name",
+  });
+</pre>
+
+<p> The built-in themes name are as follows: </p>
+<ol>
+<li> default</li>
+<li> lush</li>
+<li> deep-purple</li>
+<li> rainbow</li>
+<li> instagram</li>
+<li> dimigo</li>
+<li> deep-space</li>
+</ol>
+
+<p>
+6. To enable/disable text and box shadow: (default is false). 
+</p>
+			
+<pre class="prettyprint" lang-js">
+$(".kite-menu").kiteMenu({
+ boxShadow: true,
+ textShadow: true, 
+  });
+</pre>
+
+</article>
+</main>
+
+<!--Demo only Files-->
+<link rel="stylesheet" href="docs/demo.css" />
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"> </script> 
+<script>
+$(function(){
+    var theme = $(".theme-picker").find("span");
+   var kite_menu = $(".kite-menu");
+   $(theme).on("click", function(x){   
+   x = $(this).attr("class");
+   $(kite_menu).removeClass().addClass(
+   x+' '+'kite-menu');
+ //to reset menu 
+     $("#hamburger").removeClass("active");
+     $(".links-wrapper").fadeOut();
+   });
+});
+</script>
+
+<footer class="credit">
+Coded with <span title="Coffee"></span> by Asif Mughal &copy; 2019 - <a href="https://jqueryprojects.com" rel="dofollow" title="Free jQuery Pugins and Tutorials"> jQuery Projects </a>
+      </footer>
+</body>
+</html>
