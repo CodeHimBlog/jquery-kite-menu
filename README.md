@@ -1,5 +1,7 @@
 # jQuery Hamburger Navigation Menu with Search box.
-A responsive, simple, easy to use hamburger navigation menu with search box.
+A responsive, simple, easy to use hamburger navigation menu with search box. <br>
+Browse: [jQuery Kite Menu Demo](https://www.codehim.com/demo/hamburger-menu-jquery-kite-menu/)
+
 
 ## Main Features 
 * Fully Responsive (Mobile first Design).
@@ -102,3 +104,7 @@ $(".kite-menu").kiteMenu({
  textShadow: true, 
   });
 </pre>
+
+## Author:
+Asif Mughal <br>
+URL: www.codehim.com
