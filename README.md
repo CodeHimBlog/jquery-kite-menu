@@ -1,5 +1,5 @@
-# jquery-kite-menu (Under Development)
-jQuery Hamburger Navigation Menu with Search box.
+# jQuery Hamburger Navigation Menu with Search box.
+A responsive, simple, easy to use hamburger navigation menu with search box.
 
 ## Main Features 
 * Fully Responsive (Mobile first Design).
